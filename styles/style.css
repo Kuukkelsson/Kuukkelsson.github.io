@@ -5,8 +5,19 @@
   --search-height: 20;
 }
 
-h1 {
-  color: gold;
+header {
+  margin: auto;
+}
+
+.clock ul {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  gap: 4px;
+}
+
+li {
+  color: silver;
 }
 
 body {
