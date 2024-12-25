@@ -2,6 +2,7 @@
 :root {
   --main-bg: #1A1A1A;
   --search-bg: #4D4F56;
+  --search-height: 20;
 }
 
 h1 {
@@ -11,6 +12,11 @@ h1 {
 body {
   background-color: var(--main-bg);
 }
+
+.header {
+  height: 100px;
+}
+
 
 .simg {
   width: 20px;
@@ -23,6 +29,7 @@ body {
 
 .search {
   background-color: var(--search-bg);
+  border-radius: 8px;
   margin: auto;
   overflow: auto;
   width: 320px;
@@ -32,14 +39,17 @@ body {
 .tsb {
   background-color: var(--search-bg);
   outline: none;
-  margin-left: 4px;
+  border: none;
+  overflow: hidden;
   margin-top: 4px;
-  margin-bottom: 4px;
+  margin: 4px;
   width: 220px;
+  color: silver;
+  height: var(--search-height);
 }
 .button {
-  margin-right: 4px;
-  margin-top: 4px;
+  margin: 4px;
+  height: var(--search-height);
   float: right;
 }
 
