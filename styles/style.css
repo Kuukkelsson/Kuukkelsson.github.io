@@ -1,15 +1,46 @@
 
+:root {
+  --main-bg: #1A1A1A;
+  --search-bg: #4D4F56;
+}
+
 h1 {
   color: gold;
 }
 
 body {
-  background-color: grey;
+  background-color: var(--main-bg);
 }
 
-div {
-  background-color: dimgrey;
-  width: 400px;
-  height: 300px;
-  padding: 10px;
+.simg {
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
+  margin-top: 4px;
+  float: left;
+
 }
+
+.search {
+  background-color: var(--search-bg);
+  margin: auto;
+  overflow: auto;
+  width: 320px;
+  left: 0;
+}
+
+.tsb {
+  background-color: var(--search-bg);
+  outline: none;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 220px;
+}
+.button {
+  margin-right: 4px;
+  margin-top: 4px;
+  float: right;
+}
+
+
