@@ -1,20 +1,31 @@
 
 :root {
   --main-bg: #1A1A1A;
-  --search-bg: #4D4F56;
+  --search-bg: #3F4146;
   --search-height: 26;
+}
+
+@font-face {
+  font-family: Pixel;
+  src: url(fonts/pixl.ttf);
 }
 
 header {
   margin: auto;
 }
 
-.clock ul {
-  display: flex;
-  font-size: 20px;
-  gap: 4px;
+p {
+  margin-top: 0;
 }
 
+.clock ul {
+  margin: 0;
+  display: flex;
+  font-size: 80px;
+  gap: 4px;
+  font-family: Pixel, pxl;
+
+}
 li {
   color: silver;
   display: inline;
@@ -25,14 +36,13 @@ body {
 }
 
 .header {
-  height: 100px;
+  height: 200px;
 }
 
 .imgbox {
-  height: 22.5px;
+  height: 21.5px;
   width: 17px;
   float: left;
-  margin-left: 6px;
   margin-right: 2px;
 }
 
@@ -43,23 +53,21 @@ body {
   padding: 0;
 }
 
-
-
 .searchbar {
   background-color: var(--search-bg);
-  width: 360px;
+  width: 440px;
   margin: auto;
-  height: 40px;
+  height: 50px;
+  top: 0;
+  left: 0;
 }
 
 .searchcontent{
-  background-color: olive;
-  height: 40px;
-  top: 0;
-  left: 0;
+  background-color: var(--search-bg);
+  top: 25%;
   width: 90%;
-  margin: auto;
-  height: 90%;
+  margin: 0 auto;
+  position: relative;
 }
 
 
@@ -72,8 +80,12 @@ body {
   border: none;
   outline: none;
   color: silver;
-
 }
+.stb input {
+  height: 22.25px;
+}
+
+
 .button {
   background-color: var(--search-bg);
   border: none;
