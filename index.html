@@ -7,36 +7,14 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="clock">
-      <ul>
-        <li id="hrs">06</li>
-        <li id="point">:</li>
-        <li id="min">06</li>
-        <li id="point">:</li>
-        <li id="sec">00</li>
-      </ul>
-    </div>
-  </header>
+  <div id="command-output">
 
-  <div class="outdiv">
-    <div class="indiv">
-    </div>
   </div>
 
-  <div class="searchbar">
-    <div class="searchcontent">
-      <form action="https://duckduckgo.com/" method="get">
-        <div class="imgbox">
-          <img src="pranch.svg" class="simg">
-        </div>
-        <label for="tsb" class="tsblabel"><span>main:~$</span></label>
-        <input class="tsb" type="text" name="q" placeholder=""/>
-      </form>
-    </div>
+  <div>
+    <span class="prompt">[kuukkelsson@home ~]$</span>
+    <textarea id="command-input" rows="1" spellcheck="false"></textarea>
   </div>
 
-
-
-  <script src="js_src/clock.js"></script>
+  <script src="js_src/terminal.js"></script>
 </body>
