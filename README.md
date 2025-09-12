@@ -1,3 +1,3 @@
 # Kuukkelsson.github.io
 
-Small custom home page for Firefox.
+Small terminal themed home page for Firefox.
